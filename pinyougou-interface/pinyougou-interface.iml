@@ -12,5 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pinyougou-pojo" />
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper:3.4.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="module" module-name="pinyougou-common" />
   </component>
 </module>

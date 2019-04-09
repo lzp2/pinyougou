@@ -14,4 +14,27 @@
     <!-- 覆盖父工程中的port属性 -->
     <port>9101</port>
   </properties>
+
+  <dependencies>
+    <!-- spring-security -->
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-config</artifactId>
+    </dependency>
+
+    <!-- fastdfs-client -->
+    <dependency>
+      <groupId>org.csource</groupId>
+      <artifactId>fastdfs-client</artifactId>
+    </dependency>
+    <!-- commons-fileupload -->
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+    </dependency>
+  </dependencies>
 </project>
