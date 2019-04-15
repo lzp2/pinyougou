@@ -27,8 +27,7 @@ public class ContentCategoryController {
 
 	/** 多条件分页查询方法 */
 	@GetMapping("/findByPage")
-	public PageResult findByPage(ContentCategory contentCategory,
-								 Integer page, Integer rows) {
+	public PageResult findByPage(ContentCategory contentCategory,Integer page, Integer rows) {
 		try {
 			return contentCategoryService.findByPage(contentCategory, page, rows);
 		}catch (Exception ex){

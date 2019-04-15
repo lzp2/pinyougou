@@ -23,8 +23,7 @@
             <!-- 配置用fastjson作为json处理框架 -->
             <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
                 <!-- 配置支持的类型 @ResponseBody -->
-                <property name="supportedMediaTypes"
-                          value="application/json;charset=UTF-8"/>
+                <property name="supportedMediaTypes" value="application/json;charset=UTF-8"/>
             </bean>
         </mvc:message-converters>
     </mvc:annotation-driven>
